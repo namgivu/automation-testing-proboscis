@@ -106,4 +106,5 @@ ENV/
 
 
 ##region our app's ignore
+config_local.py
 ##endregion our app's ignore

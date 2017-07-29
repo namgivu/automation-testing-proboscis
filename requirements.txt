@@ -1,0 +1,12 @@
+proboscis #testing framework that extend both python unittest and nose test ref. http://pythonhosted.org/proboscis/
+nose      #python unittest runner
+yanc      #test report highlight util for nose
+
+#selenium  #automation-testing framework #TODO re-enable this when the bug below is solved i.e. https://github.com/SeleniumHQ/docker-selenium/issues/521#issuecomment-315665029
+selenium==3.3.1 #required this version to dodge the bug ref. https://github.com/SeleniumHQ/docker-selenium/issues/521#issuecomment-315665029
+
+pyvirtualdisplay #required Xvfb when running on Ubuntu Server
+
+requests  #make web request normally
+
+#sudo apt install -y aha &> /dev/null #install aha
